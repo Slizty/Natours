@@ -28,7 +28,6 @@ console.log(process.env.NODE_ENV);
 
 // Serving static files
 app.use(express.static(path.join(__dirname, 'public')));
-
 // Security HTTP headers
 app.use(
   helmet({
